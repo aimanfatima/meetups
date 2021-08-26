@@ -22,7 +22,7 @@ function NewMeetupForm(props) {
         descrption: enteredDescription
     };
 
-    console.log(meetUpData);
+    props.onAddMeetup(meetUpData);
   }
 
   return (
